@@ -1,8 +1,13 @@
+import Logo from "./Logo"
+
 function Header() {
   return (
-    <nav>
-        hh
-    </nav>
+    <header>
+      <nav>
+        <Logo />
+      </nav>
+
+    </header>
   )
 }
 
