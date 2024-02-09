@@ -8,7 +8,7 @@ function UserButton() {
     <div>
         <DropdownMenu>
             <DropdownMenuTrigger>
-                <UserAvatar />
+                <UserAvatar name="Lil Pep" image="https://github.com/shadcn.png" />
             </DropdownMenuTrigger>
             <DropdownMenuContent>
                 <DropdownMenuLabel>My Account</DropdownMenuLabel>
