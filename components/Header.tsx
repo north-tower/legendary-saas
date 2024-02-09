@@ -1,5 +1,6 @@
 import Logo from "./Logo"
 import DarkModeToggle from "./ui/DarkModeToggle"
+import UserButton from "./ui/UserButton"
 
 function Header() {
   return (
@@ -8,8 +9,9 @@ function Header() {
         <Logo />
 
 
-        <div className="flex-1 flex items-center justify-end space-x-4">
+        <div className="flex-1 flex items-center justify-end space-x-4  ">
           <DarkModeToggle />
+          <UserButton />
         </div>
       </nav>
 
