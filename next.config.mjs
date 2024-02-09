@@ -1,9 +1,16 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-    images: {
-      domains: ["lstatic1.squarespace.com", "a0.muscache.com"]
-    }
-  };
+module.exports = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'assets.example.com',
+        port: '',
+        pathname: '/account123/**',
+      },
+    ],
+  },
+}
   
   export default nextConfig;
   
