@@ -22,7 +22,7 @@ function UserButton({ session }: { session: Session | null}) {
                 <UserAvatar name="Lil Pep" image="https://github.com/shadcn.png" />
             </DropdownMenuTrigger>
             <DropdownMenuContent>
-                <DropdownMenuLabel>My Account</DropdownMenuLabel>
+                <DropdownMenuLabel>My Accont</DropdownMenuLabel>
                 <DropdownMenuSeparator />
                 <DropdownMenuItem>Profile</DropdownMenuItem>
                 <DropdownMenuItem>Billing</DropdownMenuItem>
