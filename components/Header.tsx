@@ -8,6 +8,7 @@ import { MessagesSquareIcon } from "lucide-react"
 
 async function Header() {
   const session = await getServerSession(authOptions);
+  console.log(session);
   
   
   return (

@@ -14,15 +14,16 @@ function UserButton({ session }: { session: Session | null}) {
             <Button variant={"outline"} onClick={() => signIn()}>
                 Sign In
             </Button>
-            )
+            )   
   return (
+        session && (
     <div>
         <DropdownMenu>
             <DropdownMenuTrigger>
-                <UserAvatar name="Lil Pep" image="https://github.com/shadcn.png" />
+                <UserAvatar name={session.user?.name} image={session.user?.image} />
             </DropdownMenuTrigger>
             <DropdownMenuContent>
-                <DropdownMenuLabel>My Accont</DropdownMenuLabel>
+                <DropdownMenuLabel>My Account</DropdownMenuLabel>
                 <DropdownMenuSeparator />
                 <DropdownMenuItem>Profile</DropdownMenuItem>
                 <DropdownMenuItem>Billing</DropdownMenuItem>
@@ -32,7 +33,7 @@ function UserButton({ session }: { session: Session | null}) {
         </DropdownMenu>
 
     </div>
-  )
+  ) )
 }
 
 export default UserButton
