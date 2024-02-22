@@ -24,7 +24,7 @@ export default function Home() {
         <div className="mx-auto ma-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
             <h1 className="text-4xl font-bold tracking-light sm:text-6xl">
-              Chat with Anyone, anywhere!
+              Chat with Anyone, aywhere!
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
               You speak your langauge , they speak their langauge.{" "}
