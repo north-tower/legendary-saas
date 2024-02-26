@@ -21,7 +21,7 @@ export default function Home() {
       </div>
 
       <div className="py-12 sm:py-20 lg:pb-40">
-        <div className="mx-auto ma-w-7xl px-6 lg:px-8">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
             <h1 className="text-4xl font-bold tracking-light sm:text-6xl">
               Chat with Anyone, aywhere!
@@ -45,7 +45,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="mt-16 flow-root sm:mt-24">
+          {/* <div className="mt-16 flow-root sm:mt-24">
             <div className="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset 
             ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4">
               <Image unoptimized src={LogoImage}
@@ -55,10 +55,10 @@ export default function Home() {
               className="rounded-md shadow-2xl ring-1 ring-gray-900/10"
                />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
-
+{/* 
       <div className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu
       overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]" aria-hidden="true">
         <div className="relative left-[calc(58%+3rem)] aspect-[1155/678] w-[36.125rem]
@@ -68,7 +68,7 @@ export default function Home() {
   
         }} />
 
-      </div>
+      </div> */}
       </div>
     </main>
   );
