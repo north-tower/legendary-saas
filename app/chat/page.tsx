@@ -1,4 +1,6 @@
-import { SetStateAction, useState } from 'react';
+'use client'
+
+import { useState } from 'react';
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 
@@ -7,7 +9,7 @@ function Page() {
 
   const handleMessageSend = async () => {
     try {
-      const response = await fetch('http://localhost:3001/writeData', {
+      const response = await fetch('http://localhost:3001/api/v1/writeData', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -29,7 +31,7 @@ function Page() {
   };
   
 
-  const handleInputChange = (e: { target: { value: SetStateAction<string>; }; }) => {
+  const handleInputChange = (e) => {
     setMessage(e.target.value);
   };
 
